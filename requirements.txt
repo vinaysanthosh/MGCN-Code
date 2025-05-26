@@ -1,0 +1,17 @@
+# Core Dependencies
+torch>=2.0.0
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.17
+numpy>=1.21.0
+scikit-learn>=1.0.0
+matplotlib>=3.4.0
+networkx>=2.6.0
+
+# Dataset information
+# This study uses three widely adopted citation network benchmark datasets: 
+# Cora, CiteSeer, and PubMed, accessed via the Planetoid class from:
+# https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.Planetoid.html
+
+# Internally, PyG downloads from:
+# https://github.com/kimiyoung/planetoid/raw/master/data
